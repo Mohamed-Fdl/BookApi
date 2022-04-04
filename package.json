@@ -1,0 +1,23 @@
+{
+    "name": "bookapi",
+    "version": "1.0.0",
+    "description": "A book api",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "fdlcode",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.1",
+        "express": "^4.17.2",
+        "express-session": "^1.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
