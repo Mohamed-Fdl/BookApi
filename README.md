@@ -1,7 +1,7 @@
 # API project with JWT Authentication(Books API)
 In this repo I show you how I made a little and basic book API with authentication and authorization system using JWT .
 This API provide you  books and allows you to make CRUD actions according to the REST structure. So you can create,display,update and delete if you are authenticated!
-After creating account you receive token in the response header when you are logged which allow you to access your todo list 
+After creating account you receive token in the response header that you can use after to access routes that require to be logged
 
 ## Database structure
 I use a mongoDB database with the npm package named Mongoose
